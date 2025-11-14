@@ -1,4 +1,4 @@
-    cyberready.world
+        cyberready.world
                            .-.
                           {{#}}
           {}               8@8
@@ -24,4 +24,4 @@
     `\<> |  | <>/'         |'|
       `-.|__|.-`           \ /
                             ^
-      CyberReady                      
+        CyberReady                      

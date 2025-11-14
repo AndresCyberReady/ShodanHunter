@@ -16,7 +16,7 @@ Your API key is properly secured and will NOT be leaked to GitHub.
 ### Quick Check (Run this command):
 ```bash
 # Verify no API key in codebase
-grep -r "If6CaxfHLdMiGu7PEJ3d7TgPRNeABxVF" . --exclude-dir=venv 2>/dev/null && echo "⚠️  WARNING: API key found!" || echo "✅ Safe - No API key found"
+grep -r "APIKEY" . --exclude-dir=venv 2>/dev/null && echo "⚠️  WARNING: API key found!" || echo "✅ Safe - No API key found"
 
 # Check what files will be committed
 git status
