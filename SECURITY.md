@@ -10,17 +10,6 @@
 - ✅ API key is loaded dynamically via `get_api_key()` function
 - ✅ Report files are excluded from git
 
-## Before Pushing to GitHub:
-
-### Quick Check (Run this command):
-```bash
-# Verify no API key in codebase
-grep -r "APIKEY" . --exclude-dir=venv 2>/dev/null && echo "⚠️  WARNING: API key found!" || echo "✅ Safe - No API key found"
-
-# Check what files will be committed
-git status
-git ls-files
-```
 
 ### Files That Will Be Committed:
 - ✅ `ShodanHunter.py` - Safe (no hardcoded API key)
@@ -78,4 +67,3 @@ echo "your_api_key_here" > .shodan_api_key
 ---
 **Last Security Check:** ✅ PASSED  
 **Status:** Safe to push to GitHub
-
